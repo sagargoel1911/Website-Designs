@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode - The World's Leading Online Programming Learning Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="LC.webp">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-content">
+        <div class="nav-left">
+        <div class="logo"><svg  viewBox="0 0 95 111" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-auto max-w-none"><path d="M68.0063 83.0664C70.5 80.5764 74.5366 80.5829 77.0223 83.0809C79.508 85.579 79.5015 89.6226 77.0078 92.1127L65.9346 103.17C55.7187 113.371 39.06 113.519 28.6718 103.513C28.6117 103.456 23.9861 98.9201 8.72653 83.957C-1.42528 74.0029 -2.43665 58.0749 7.11648 47.8464L24.9282 28.7745C34.4095 18.6219 51.887 17.5122 62.7275 26.2789L78.9048 39.362C81.6444 41.5776 82.0723 45.5985 79.8606 48.3429C77.6488 51.0873 73.635 51.5159 70.8954 49.3003L54.7182 36.2173C49.0488 31.6325 39.1314 32.2622 34.2394 37.5006L16.4274 56.5727C11.7767 61.5522 12.2861 69.574 17.6456 74.8292C28.851 85.8169 37.4869 94.2846 37.4969 94.2942C42.8977 99.496 51.6304 99.4184 56.9331 94.1234L68.0063 83.0664Z" fill="#FFA116"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M41.1067 72.0014C37.5858 72.0014 34.7314 69.1421 34.7314 65.615C34.7314 62.0879 37.5858 59.2286 41.1067 59.2286H88.1245C91.6454 59.2286 94.4997 62.0879 94.4997 65.615C94.4997 69.1421 91.6454 72.0014 88.1245 72.0014H41.1067Z" fill="#B3B3B3"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M49.9118 2.02335C52.3173 -0.55232 56.3517 -0.686894 58.9228 1.72277C61.494 4.13244 61.6284 8.17385 59.2229 10.7495L16.4276 56.5729C11.7768 61.552 12.2861 69.5738 17.6453 74.8292L37.4088 94.2091C39.9249 96.6764 39.968 100.72 37.505 103.24C35.042 105.761 31.0056 105.804 28.4895 103.337L8.72593 83.9567C-1.42529 74.0021 -2.43665 58.0741 7.1169 47.8463L49.9118 2.02335Z" fill="black"></path></svg></div>
+        <div class="nav-items">
+            <div class="nav-item">Explore</div>
+            <div class="nav-item">Problems</div>
+            <div class="nav-item">Contest</div>
+            <div class="nav-item">Discuss</div>
+            <div class="nav-item">Interview <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="drop-down ml-1 h-[14px] w-[14px]" aria-hidden="true"><path fill-rule="evenodd" d="M4.929 7.913l7.078 7.057 7.064-7.057a1 1 0 111.414 1.414l-7.77 7.764a1 1 0 01-1.415 0L3.515 9.328a1 1 0 011.414-1.414z" clip-rule="evenodd"><path fill-rule="evenodd" d="M4.929 7.913l7.078 7.057 7.064-7.057a1 1 0 111.414 1.414l-7.77 7.764a1 1 0 01-1.415 0L3.515 9.328a1 1 0 011.414-1.414z" clip-rule="evenodd"></path></svg></div>
+            <div class="nav-item "><div class="store">Store <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="drop-down ml-1 h-[14px] w-[14px]" aria-hidden="true"><path fill-rule="evenodd" d="M4.929 7.913l7.078 7.057 7.064-7.057a1 1 0 111.414 1.414l-7.77 7.764a1 1 0 01-1.415 0L3.515 9.328a1 1 0 011.414-1.414z" clip-rule="evenodd"></path></svg></div></div>
+        </div>
+        </div>
+        <div class="nav-right">
+            <div class="bell"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="hover:text-text-primary dark:hover:text-text-primary "><path fill-rule="evenodd" clip-rule="evenodd" d="M6.20374 15.8174C6.18177 15.8563 6.15975 15.8945 6.13771 15.9322H17.8623C17.8403 15.8945 17.8182 15.8563 17.7963 15.8174C16.8756 14.1898 16.3333 12.0111 16.3333 9.21793C16.3333 6.93819 14.4012 5.07507 12 5.07507C9.5988 5.07507 7.66667 6.93819 7.66667 9.21793C7.66667 12.0111 7.12442 14.1898 6.20374 15.8174ZM20 17.9322H4.00001C3.00196 17.9322 2.61971 16.6307 3.45925 16.091C3.66114 15.9612 4.0464 15.5691 4.46294 14.8327C5.20893 13.5139 5.66667 11.6748 5.66667 9.21793C5.66667 5.81702 8.51018 3.07507 12 3.07507C15.4898 3.07507 18.3333 5.81702 18.3333 9.21793C18.3333 11.6748 18.7911 13.5139 19.5371 14.8327C19.9536 15.5691 20.3389 15.9612 20.5408 16.091C21.3803 16.6307 20.9981 17.9322 20 17.9322ZM12.9372 19.2783C13.2219 18.805 13.8363 18.6521 14.3096 18.9368C14.7828 19.2215 14.9357 19.836 14.651 20.3092C14.0976 21.2292 13.0875 21.7902 12 21.7902C10.9125 21.7902 9.90245 21.2292 9.34903 20.3092C9.06434 19.836 9.2172 19.2215 9.69045 18.9368C10.1637 18.6521 10.7781 18.805 11.0628 19.2783C11.2515 19.5919 11.6085 19.7902 12 19.7902C12.3915 19.7902 12.7485 19.5919 12.9372 19.2783Z"></path></svg></div>
+            <div class="streak">
+                <div class="streak-symbol"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="streak-fire h-[20px] w-[20px]"><g filter="url(#hot-filled_svg__filter0_i_289_12318)"><path fill-rule="evenodd" d="M9.588 2.085a1 1 0 01.97.092c2.85 1.966 4.498 4.744 5.31 6.67l.854-.885a1 1 0 011.56.154c2.177 3.38 2.211 7.383.521 10.3C17.039 21.459 13.583 22 11.977 22c-1.569 0-4.905-.27-6.825-3.584-.832-1.435-1.27-3.053-1.125-4.704.146-1.66.876-3.284 2.264-4.721.86-.891 1.505-2.122 1.957-3.322.449-1.193.68-2.278.752-2.806a1 1 0 01.588-.778z" clip-rule="evenodd" fill="url(#hot-filled_svg__paint0_linear_289_12318)"></path></g><defs><linearGradient id="hot-filled_svg__paint0_linear_289_12318" x1="12" x2="12" y1="2" y2="22" gradientUnits="userSpaceOnUse"><stop stop-color="#FFA116"></stop><stop offset="1" stop-color="#F9772E"></stop></linearGradient><filter id="hot-filled_svg__filter0_i_289_12318" width="17.2" height="21.2" x="4" y="2" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend><feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"></feColorMatrix><feOffset dx="1.2" dy="1.2"></feOffset><feGaussianBlur stdDeviation="0.6"></feGaussianBlur><feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"></feComposite><feColorMatrix values="0 0 0 0 0.970833 0 0 0 0 0.05825 0 0 0 0 0 0 0 0 0.16 0"></feColorMatrix><feBlend in2="shape" result="effect1_innerShadow_289_12318"></feBlend></filter></defs></svg></div>
+                <div class="streak-count">743</div>
+            </div>
+            <div class=""><img  src="https://assets.leetcode.com/users/avatars/avatar_1703176914.png" alt="avatar" class="profile-pic h-full w-full rounded-full object-cover"></div>
+            <div class="premium-cta">Premium</div>
+        </div>
+        <div class="hamburger">
+            <img src="hamburger.jpeg" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="covid-notification">
+            <span>In an effort to fight COVID-19, from now until a limited time only, users residing in India can enjoy discount on both&nbsp</span><span class="in-blue">monthly and annual subscriptions </span><span>!</span>
+        </div>
+        <div class="posts-and-info">
+            <div class="posts">
+                <div class="contest-info">
+                    <div class="post-pic"><img class="trophy" src="trophy.JPG" alt=""></div>
+                    <div class="post-text">
+                        <div class="post-time">in 5 days</div>
+                        <div class="post-heading"><h5>Join our Contest <span class="in-blue">Biweekly Contest 124</span></h5></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="contest-info">
+                    <div class="post-pic"><img class="trophy" src="trophy.JPG" alt=""></div>
+                    <div class="post-text">
+                        <div class="post-time">in 6 days</div>
+                        <div class="post-heading"><h5>Join our Contest <span class="in-blue">Weekly Contest 385</span></h5></div>
+                    </div>
+                </div>
+                <hr>
+                <div class="post">
+                    <div class="post-pic"><img class="anon-pic" src="LC Default Avatar.jpg" alt=""></div>
+                    <div class="post-text">
+                        <div class="post-time">	a day ago</div>
+                        <!-- <div class="post-body"> -->
+                            <div class="post-heading">
+                                <h5>An anonymous user posted <span class="in-blue">Contest violation in Weekly Contest 384</span></h5>
+                            </div>
+                            <div class="post-desc">
+                                These many same codes isnt a coincidence again. |Question|Copies| |---|---| |Number of Subarrays That Match a Pattern I|55| |Number of Subarrays That Match a Pattern II|46| |Number of Subarrays That Match a Pattern II|36| |Maximum...
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <hr>
+                <div class="post">
+                    <div class="post-pic"><img class="anon-pic" src="LC Default Avatar.jpg" alt=""></div>
+                    <div class="post-text">
+                        <div class="post-time">2 days ago</div>
+                        <!-- <div class="post-body"> -->
+                            <div class="post-heading">
+                            <h5>An anonymous user posted <span class="in-blue">Zscaler | Internship + FTE | Software Developer C/C++ | On-Campus | Bangalore [Offer Accepted]</span></h5></div>
+                            <div class="post-desc">
+                                Status: Fresh Graduate, B.Tech (Electronics and Communication Engineering), Tier 1 College Past Experience: SDE Intern at a Startup Position offered: Software Developer C/C++ (6 months Internship + Full Time) Location: Bangalore, India (Work...</div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                    <img src="LC System design.jpeg" alt="" class="info-card">
+                    <img src="LC DSA.png" alt="" class="info-card">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
